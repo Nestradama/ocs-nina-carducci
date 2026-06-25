@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fe8a1f8-4ed5-468a-9779-d579c3a5baaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/OCRS_P4_Nina.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nina-carducci.github.io/assets/maugallery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nina-carducci.github.io/assets/scripts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nina-carducci.github.io/assets/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/nina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" beforeDir="false" />
+    <list default="true" id="1fe8a1f8-4ed5-468a-9779-d579c3a5baaa" name="Changes" comment="Optimization: Images to WebP, minification, defer scripts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/maugallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/nina-carducci.github.io/assets/maugallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/maugallery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/nina-carducci.github.io/assets/maugallery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nina-carducci.github.io/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,61 +41,61 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.4930191325922615E-81" />
-      <entry key="S2" value="9.170948638855244E-21" />
-      <entry key="S5" value="1.4072078975866024E-8" />
-      <entry key="S10" value="1.665740874669582E-4" />
-      <entry key="S30" value="0.08720219165135426" />
-      <entry key="S60" value="0.41753885260864715" />
-      <entry key="M2" value="0.9176995033062385" />
-      <entry key="M5" value="1.672775758823006" />
-      <entry key="M10" value="2.5051530844571155" />
-      <entry key="M15" value="3.0395423812888356" />
-      <entry key="M30" value="3.825327754954587" />
-      <entry key="H1" value="4.352882365340722" />
-      <entry key="H2" value="4.659814830338939" />
-      <entry key="H4" value="4.825519828377895" />
-      <entry key="D1" value="4.9702899213183755" />
-      <entry key="W1" value="4.995739996381515" />
+      <entry key="MS100" value="1.000000002218609" />
+      <entry key="MS500" value="1.031031155106441" />
+      <entry key="S2" value="1.7043386571387191" />
+      <entry key="S5" value="2.3594803541389946" />
+      <entry key="S10" value="3.2331163186332783" />
+      <entry key="S30" value="6.696711141389031" />
+      <entry key="S60" value="10.26482912739318" />
+      <entry key="M2" value="15.040487866770617" />
+      <entry key="M5" value="21.285336072612242" />
+      <entry key="M10" value="30.834940082210025" />
+      <entry key="M15" value="43.56381737107754" />
+      <entry key="M30" value="77.25175290362391" />
+      <entry key="H1" value="112.79908552822637" />
+      <entry key="H2" value="139.2077992751309" />
+      <entry key="H4" value="155.39778237330856" />
+      <entry key="D1" value="170.71662328154846" />
+      <entry key="W1" value="173.5262466590124" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000368031159" />
-      <entry key="S5" value="1.0015831833898836" />
-      <entry key="S10" value="1.0561050175523619" />
-      <entry key="S30" value="1.607297469272929" />
-      <entry key="S60" value="2.10199587634004" />
-      <entry key="M2" value="2.484554139200269" />
-      <entry key="M5" value="2.775228523242555" />
-      <entry key="M10" value="2.884264099796403" />
-      <entry key="M15" value="2.9220784148358545" />
-      <entry key="M30" value="2.9606519645405873" />
-      <entry key="H1" value="2.9802282064568386" />
-      <entry key="H2" value="2.9900895375855097" />
-      <entry key="H4" value="2.9950386121045427" />
-      <entry key="D1" value="2.999172245622045" />
-      <entry key="W1" value="2.99988172838466" />
+      <entry key="MS100" value="1.1175139259997346E-135" />
+      <entry key="MS500" value="1.0224700339290733E-27" />
+      <entry key="S2" value="1.788185822112344E-7" />
+      <entry key="S5" value="0.001999700977399302" />
+      <entry key="S10" value="0.04471801625071603" />
+      <entry key="S30" value="0.35494482049380555" />
+      <entry key="S60" value="0.5957724572028366" />
+      <entry key="M2" value="0.7718911414901075" />
+      <entry key="M5" value="0.9380044193430137" />
+      <entry key="M10" value="1.41784667883947" />
+      <entry key="M15" value="2.144441604251927" />
+      <entry key="M30" value="4.126555015978651" />
+      <entry key="H1" value="6.261062347898708" />
+      <entry key="H2" value="7.866102977838098" />
+      <entry key="H4" value="8.85660572631855" />
+      <entry key="D1" value="9.797799963347675" />
+      <entry key="W1" value="9.970815035784666" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.96051528827875E-21" />
-      <entry key="MS500" value="8.691712619611025E-5" />
-      <entry key="S2" value="0.09655537841223409" />
-      <entry key="S5" value="0.39400052295613264" />
-      <entry key="S10" value="0.6801238157263703" />
-      <entry key="S30" value="1.5384825294974371" />
-      <entry key="S60" value="2.4312128634666657" />
-      <entry key="M2" value="3.353202173066418" />
-      <entry key="M5" value="4.426499354531103" />
-      <entry key="M10" value="5.378165674917412" />
-      <entry key="M15" value="5.953967554100279" />
-      <entry key="M30" value="6.782058031698165" />
-      <entry key="H1" value="7.331121000520426" />
-      <entry key="H2" value="7.648901615277961" />
-      <entry key="H4" value="7.820054961662905" />
-      <entry key="D1" value="7.969377951739647" />
-      <entry key="W1" value="7.995609686490031" />
+      <entry key="MS100" value="0.8467453138444032" />
+      <entry key="MS500" value="0.9867870495056986" />
+      <entry key="S2" value="1.5741112800029378" />
+      <entry key="S5" value="2.2492868874563277" />
+      <entry key="S10" value="3.1798608334888514" />
+      <entry key="S30" value="6.965055360367605" />
+      <entry key="S60" value="10.799181673905796" />
+      <entry key="M2" value="15.775217522378549" />
+      <entry key="M5" value="22.206244241707974" />
+      <entry key="M10" value="32.241888343797065" />
+      <entry key="M15" value="45.69871666949035" />
+      <entry key="M30" value="81.37047129202655" />
+      <entry key="H1" value="119.05459070293622" />
+      <entry key="H2" value="147.07050926242832" />
+      <entry key="H4" value="164.25250223766363" />
+      <entry key="D1" value="180.51407896128583" />
+      <entry key="W1" value="183.49701172449932" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -143,7 +121,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -160,8 +139,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782347222872</updated>
-      <workItem from="1782347224964" duration="2112000" />
+      <workItem from="1782347224964" duration="4945000" />
     </task>
+    <task id="LOCAL-00001" summary="Optimization: Images to WebP, minification, defer scripts">
+      <option name="closed" value="true" />
+      <created>1782349461849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782349461849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,5 +165,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Optimization: Images to WebP, minification, defer scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimization: Images to WebP, minification, defer scripts" />
   </component>
 </project>
