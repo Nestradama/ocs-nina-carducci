@@ -111,6 +111,7 @@
     responsiveImageItem(element) {
       if (element.prop("tagName") === "IMG") {
         element.addClass("img-fluid");
+        element.attr("tabindex", "0")
       }
     },
     openLightBox(element, lightboxId) {
@@ -204,13 +205,13 @@
                         <div class="modal-body">
                             ${
                               navigation
-                                ? '<div class="mg-prev" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;"><</div>'
+                                ? '<div class="mg-prev" tabindex="0" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;"><</div>'
                                 : '<span style="display:none;" />'
                             }
                             <img class="lightboxImage img-fluid" alt="Contenu de l'image affichée dans la modale au clique"/>
                             ${
                               navigation
-                                ? '<div class="mg-next" style="cursor:pointer;position:absolute;top:50%;right:-15px;background:white;}">></div>'
+                                ? '<div class="mg-next" tabindex="0" style="cursor:pointer;position:absolute;top:50%;right:-15px;background:white;}">></div>'
                                 : '<span style="display:none;" />'
                             }
                         </div>
@@ -223,7 +224,7 @@
         '<li class="nav-item"><span class="nav-link active active-tag"  data-images-toggle="all">Tous</span></li>';
       $.each(tags, function(index, value) {
         tagItems += `<li class="nav-item active">
-                <span class="nav-link"  data-images-toggle="${value}">${value}</span></li>`;
+                <span class="nav-link" tabindex="0" data-images-toggle="${value}">${value}</span></li>`;
       });
       var tagsRow = `<ul class="my-4 tags-bar nav nav-pills">${tagItems}</ul>`;
 
