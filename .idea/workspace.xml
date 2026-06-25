@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fe8a1f8-4ed5-468a-9779-d579c3a5baaa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/OCRS_P4_Nina.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nina-carducci.github.io/assets/maugallery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nina-carducci.github.io/assets/scripts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nina-carducci.github.io/assets/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/nina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nina-carducci.github.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nina-carducci.github.io/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nina-carducci.github.io" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Nestradama"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nina-carducci/nina-carducci.github.io.git",
+    "accountId": "cb2ac420-a2c2-4e8a-a892-52962f4401ee"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.4930191325922615E-81" />
+      <entry key="S2" value="9.170948638855244E-21" />
+      <entry key="S5" value="1.4072078975866024E-8" />
+      <entry key="S10" value="1.665740874669582E-4" />
+      <entry key="S30" value="0.08720219165135426" />
+      <entry key="S60" value="0.41753885260864715" />
+      <entry key="M2" value="0.9176995033062385" />
+      <entry key="M5" value="1.672775758823006" />
+      <entry key="M10" value="2.5051530844571155" />
+      <entry key="M15" value="3.0395423812888356" />
+      <entry key="M30" value="3.825327754954587" />
+      <entry key="H1" value="4.352882365340722" />
+      <entry key="H2" value="4.659814830338939" />
+      <entry key="H4" value="4.825519828377895" />
+      <entry key="D1" value="4.9702899213183755" />
+      <entry key="W1" value="4.995739996381515" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000368031159" />
+      <entry key="S5" value="1.0015831833898836" />
+      <entry key="S10" value="1.0561050175523619" />
+      <entry key="S30" value="1.607297469272929" />
+      <entry key="S60" value="2.10199587634004" />
+      <entry key="M2" value="2.484554139200269" />
+      <entry key="M5" value="2.775228523242555" />
+      <entry key="M10" value="2.884264099796403" />
+      <entry key="M15" value="2.9220784148358545" />
+      <entry key="M30" value="2.9606519645405873" />
+      <entry key="H1" value="2.9802282064568386" />
+      <entry key="H2" value="2.9900895375855097" />
+      <entry key="H4" value="2.9950386121045427" />
+      <entry key="D1" value="2.999172245622045" />
+      <entry key="W1" value="2.99988172838466" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.96051528827875E-21" />
+      <entry key="MS500" value="8.691712619611025E-5" />
+      <entry key="S2" value="0.09655537841223409" />
+      <entry key="S5" value="0.39400052295613264" />
+      <entry key="S10" value="0.6801238157263703" />
+      <entry key="S30" value="1.5384825294974371" />
+      <entry key="S60" value="2.4312128634666657" />
+      <entry key="M2" value="3.353202173066418" />
+      <entry key="M5" value="4.426499354531103" />
+      <entry key="M10" value="5.378165674917412" />
+      <entry key="M15" value="5.953967554100279" />
+      <entry key="M30" value="6.782058031698165" />
+      <entry key="H1" value="7.331121000520426" />
+      <entry key="H2" value="7.648901615277961" />
+      <entry key="H4" value="7.820054961662905" />
+      <entry key="D1" value="7.969377951739647" />
+      <entry key="W1" value="7.995609686490031" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FbcUGVYGMJY6uLBQJxZz8OH1Fm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-64587f7adf9c-JavaScript-WS-262.7581.20" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fe8a1f8-4ed5-468a-9779-d579c3a5baaa" name="Changes" comment="" />
+      <created>1782347222872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782347222872</updated>
+      <workItem from="1782347224964" duration="2112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
