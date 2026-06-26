@@ -6,34 +6,34 @@
       $.fn.mauGallery.methods.createRowWrapper($(this));
       if (options.lightBox) {
         $.fn.mauGallery.methods.createLightBox(
-          $(this),
-          options.lightboxId,
-          options.navigation
+            $(this),
+            options.lightboxId,
+            options.navigation
         );
       }
       $.fn.mauGallery.listeners(options);
 
       $(this)
-        .children(".gallery-item")
-        .each(function(index) {
-          $.fn.mauGallery.methods.responsiveImageItem($(this));
-          $.fn.mauGallery.methods.moveItemInRowWrapper($(this));
-          $.fn.mauGallery.methods.wrapItemInColumn($(this), options.columns);
-          var theTag = $(this).data("gallery-tag");
-          if (
-            options.showTags &&
-            theTag !== undefined &&
-            tagsCollection.indexOf(theTag) === -1
-          ) {
-            tagsCollection.push(theTag);
-          }
-        });
+          .children(".gallery-item")
+          .each(function(index) {
+            $.fn.mauGallery.methods.responsiveImageItem($(this));
+            $.fn.mauGallery.methods.moveItemInRowWrapper($(this));
+            $.fn.mauGallery.methods.wrapItemInColumn($(this), options.columns);
+            var theTag = $(this).data("gallery-tag");
+            if (
+                options.showTags &&
+                theTag !== undefined &&
+                tagsCollection.indexOf(theTag) === -1
+            ) {
+              tagsCollection.push(theTag);
+            }
+          });
 
       if (options.showTags) {
         $.fn.mauGallery.methods.showItemTags(
-          $(this),
-          options.tagsPosition,
-          tagsCollection
+            $(this),
+            options.tagsPosition,
+            tagsCollection
         );
       }
 
@@ -59,19 +59,19 @@
 
     $(".gallery").on("click", ".nav-link", $.fn.mauGallery.methods.filterByTag);
     $(".gallery").on("click", ".mg-prev", () =>
-      $.fn.mauGallery.methods.prevImage(options.lightboxId)
+        $.fn.mauGallery.methods.prevImage(options.lightboxId)
     );
     $(".gallery").on("click", ".mg-next", () =>
-      $.fn.mauGallery.methods.nextImage(options.lightboxId)
+        $.fn.mauGallery.methods.nextImage(options.lightboxId)
     );
   };
   $.fn.mauGallery.methods = {
     createRowWrapper(element) {
       if (
-        !element
-          .children()
-          .first()
-          .hasClass("row")
+          !element
+              .children()
+              .first()
+              .hasClass("row")
       ) {
         element.append('<div class="gallery-items-row row"></div>');
       }
@@ -79,7 +79,7 @@
     wrapItemInColumn(element, columns) {
       if (columns.constructor === Number) {
         element.wrap(
-          `<div class='item-column mb-4 col-${Math.ceil(12 / columns)}'></div>`
+            `<div class='item-column mb-4 col-${Math.ceil(12 / columns)}'></div>`
         );
       } else if (columns.constructor === Object) {
         var columnClasses = "";
@@ -101,7 +101,7 @@
         element.wrap(`<div class='item-column mb-4${columnClasses}'></div>`);
       } else {
         console.error(
-          `Columns should be defined as numbers or objects. ${typeof columns} is not supported.`
+            `Columns should be defined as numbers or objects. ${typeof columns} is not supported.`
         );
       }
     },
@@ -116,8 +116,8 @@
     },
     openLightBox(element, lightboxId) {
       $(`#${lightboxId}`)
-        .find(".lightboxImage")
-        .attr("src", element.attr("src"));
+          .find(".lightboxImage")
+          .attr("src", element.attr("src"));
       $(`#${lightboxId}`).modal("toggle");
     },
     prevImage() {
@@ -138,25 +138,25 @@
       } else {
         $(".item-column").each(function() {
           if (
-            $(this)
-              .children("img")
-              .data("gallery-tag") === activeTag
+              $(this)
+                  .children("img")
+                  .data("gallery-tag") === activeTag
           ) {
             imagesCollection.push($(this).children("img"));
           }
         });
       }
       let index = 0,
-        next = null;
+          next = null;
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i ;
+          index = i -1;
         }
       });
       next =
-        imagesCollection[index] ||
-        imagesCollection[imagesCollection.length - 1];
+          imagesCollection[index] ||
+          imagesCollection[imagesCollection.length - 1];
       $(".lightboxImage").attr("src", $(next).attr("src"));
     },
     nextImage() {
@@ -177,20 +177,20 @@
       } else {
         $(".item-column").each(function() {
           if (
-            $(this)
-              .children("img")
-              .data("gallery-tag") === activeTag
+              $(this)
+                  .children("img")
+                  .data("gallery-tag") === activeTag
           ) {
             imagesCollection.push($(this).children("img"));
           }
         });
       }
       let index = 0,
-        next = null;
+          next = null;
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
-          index = i;
+          index = i +1;
         }
       });
       next = imagesCollection[index] || imagesCollection[0];
@@ -198,22 +198,22 @@
     },
     createLightBox(gallery, lightboxId, navigation) {
       gallery.append(`<div class="modal fade" id="${
-        lightboxId ? lightboxId : "galleryLightbox"
+          lightboxId ? lightboxId : "galleryLightbox"
       }" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
                             ${
-                              navigation
-                                ? '<div class="mg-prev" tabindex="0" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;"><</div>'
-                                : '<span style="display:none;" />'
-                            }
+          navigation
+              ? '<div class="mg-prev" tabindex="0" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;"><</div>'
+              : '<span style="display:none;" />'
+      }
                             <img class="lightboxImage img-fluid" alt="Contenu de l'image affichée dans la modale au clique"/>
                             ${
-                              navigation
-                                ? '<div class="mg-next" tabindex="0" style="cursor:pointer;position:absolute;top:50%;right:-15px;background:white;}">></div>'
-                                : '<span style="display:none;" />'
-                            }
+          navigation
+              ? '<div class="mg-next" tabindex="0" style="cursor:pointer;position:absolute;top:50%;right:-15px;background:white;}">></div>'
+              : '<span style="display:none;" />'
+      }
                         </div>
                     </div>
                 </div>
@@ -222,7 +222,7 @@
     showItemTags(gallery, position, tags) {
       //TODO: Active tag responsive
       var tagItems =
-        '<li class="nav-item"><span class="nav-link active active-tag"  data-images-toggle="all">Tous</span></li>';
+          '<li class="nav-item"><span class="nav-link active active-tag"  data-images-toggle="all">Tous</span></li>';
       $.each(tags, function(index, value) {
         tagItems += `<li class="nav-item active">
                 <span class="nav-link" tabindex="0" data-images-toggle="${value}">${value}</span></li>`;
@@ -242,22 +242,22 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
+      $(this).addClass("active active-tag");
 
       var tag = $(this).data("images-toggle");
 
       $(".gallery-item").each(function() {
         $(this)
-          .parents(".item-column")
-          .hide();
+            .parents(".item-column")
+            .hide();
         if (tag === "all") {
           $(this)
-            .parents(".item-column")
-            .show(300);
+              .parents(".item-column")
+              .show(300);
         } else if ($(this).data("gallery-tag") === tag) {
           $(this)
-            .parents(".item-column")
-            .show(300);
+              .parents(".item-column")
+              .show(300);
         }
       });
     }
