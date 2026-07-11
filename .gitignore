@@ -1,2 +1,9 @@
-.idea
+.idea/
 .DS_Store
+node_modules/
+.reasonix/
+tmp/
+rapport-intervention.*
+*.min.min.*
+nina-carducci.github.io/
+package-lock.json
