@@ -12,4 +12,32 @@ $(document).ready(function() {
         showTags: true,
         tagsPosition: 'top'
     });
+
+    // Accessibility
+    var isActivationKey = function(e) {
+        return e.key === 'Enter' || e.key === ' ';
+    };
+
+    $(document).on('keydown', '.gallery-item', function(e) {
+        if (!isActivationKey(e)) return;
+        e.preventDefault();
+        $.fn.mauGallery.methods.openLightBox($(this), 'myAwesomeLightbox');
+    });
+    $(document).on('keydown', '.tags-bar .nav-link', function(e) {
+        if (!isActivationKey(e)) return;
+        e.preventDefault();
+        $.fn.mauGallery.methods.filterByTag.call(this);
+    });
+    $(document).on('keydown', '.mg-prev', function(e) {
+        if (!isActivationKey(e)) return;
+        e.preventDefault();
+        $.fn.mauGallery.methods.prevImage();
+    });
+    $(document).on('keydown', '.mg-next', function(e) {
+        if (!isActivationKey(e)) return;
+        e.preventDefault();
+        $.fn.mauGallery.methods.nextImage();
+    });
+
+    $('.tags-bar .nav-link').attr('tabindex', '0');
 });
